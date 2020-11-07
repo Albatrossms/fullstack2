@@ -1,0 +1,99 @@
+body {
+    background-color: #b3b5f0;
+    background-image: url('../img/napster.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 500px 500px;
+}
+
+fieldset {
+}
+
+input[type='text'], select {
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    min-width: 200px;
+    width:90%;
+}
+
+button {
+    background-color: #545fa7;
+    color: white;
+    padding: 10px;
+    min-width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#Navigation {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    height: 45px;
+}
+
+    #Navigation a {
+        padding: 15px;
+        color: black;
+        font-size: 18px;
+    }
+
+a.active {
+    color: black;
+    background-color: #d9e9e5;
+    
+}
+
+#InputForm {
+    background-color: #e3d2d2;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    opacity:0.9;
+}
+
+#Favourites {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+    #Favourites img {
+        height: 150px;
+        cursor:pointer;
+    }
+
+#SearchResults {
+    width: 75%;
+    margin: auto;
+    background-color:lightgray;
+}
+
+    #SearchResults td {
+        text-align: center;
+    }
+
+    #SearchResults th {
+        text-align: center;
+        background-color: #545fa7;
+        color: white;
+    }
+
+#LibraryAlbumCover {
+    margin-top: 10px;
+}
+
+    #LibraryAlbumCover td {
+        text-align: center;
+        text-wrap: normal;
+    }
+
+    #LibraryAlbumCover img {
+        height: 200px;
+    }

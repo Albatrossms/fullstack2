@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Music Search</title>
+    <link rel="stylesheet" type="text/css" href="Bootstrap-3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="js/data.js"></script>
+    <script src="js/search.js"></script>
+</head>
+<body>
+    
+        <div id="Navigation">
+            <a class="active">Search</a>
+        </div>
+        <div id="InputForm">
+            <fieldset>
+                <legend>Music Search</legend>
+                <div id="divSearch">
+                    <label for="Artist">Artist:</label>
+                    <input id="Artist" type="text" placeholder="Enter the Artist Name" />
+                    <br /><br />
+
+                    <label for="Song">Song:</label>
+                    <input id="Song" type="text" placeholder="Enter the Song Title" />
+                    <br /><br />
+
+                    <label for="Album">Song:</label>
+                    <input id="Album" type="text" placeholder="Enter the Album Name" />
+                    <br /><br />
+                    <label for="Genre">Genre: </label>
+                    <select id="Genre" class="custom-select d-block w-100">
+                        <option value="" selected>Select a Genre</option>
+                        <option>Classical</option>
+                        <option>Jazz</option>
+                        <option>Rock</option>
+                    </select>
+                    <br /><br />
+                    <button id="Search">Search</button>
+                    <button id="Reset"  onclick="clkReset();">Reset</button>
+                </div>
+            </fieldset>
+        </div>
+        <div class="table-responsive">
+            <div id="Favourites">                
+            </div>            
+            <table id="SearchResults" class="table table-striped table-sm">
+                <thead>
+                    <tr>
+                        <th>Artist</th>
+                        <th>Song</th>
+                        <th>Time</th>
+                        <th>Album</th>
+                        <th>Genre</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+</body>
+</html>
